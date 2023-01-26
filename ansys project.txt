@@ -1,0 +1,28 @@
+i am sai aravind
+In ansys we  design high frequency transformer in 3d by using maxwell 3d
+In wizards there is differnt type of modules, we select electronic transformer for designing for high frequency transformer.
+1)comeing to CORE DEFINTION:-
+         here we defin dimension of core and what type of core is used fot the transformer.there is differnt type of cores like etd,e,efd,p.we select 
+etd type core for the desighning.
+
+
+2)WINDING DEFINATION:-
+         Here we select no layers is requried for the transformer.we define 2 because it is single phase transformer so 1layer is primary and another layer 
+is secondary.and here we difine layer spacing ,conducter type .we define circle conductor type.after we define how many turns requried for the transformer.
+so according to my theoritical caluclations, primary having 8turns and secondary having 3turns.
+                                    
+                                     "After the transformer will be design like this".
+
+3)ANALYSIS SETUP:-
+          In alasys setup there is options like what type of material used for the core an coil , According to my theortical calculations we define 
+core material as feriate and coil material as copper. then we set the how frequency. we set as 25Khz
+
+Before setup the analysis.we need to define . which layer is primary and which layer is secondary.after that we setup an region for analysis.
+
+then we give current excitation to the primary and secondary winding,according to my theoritical calucalations we define 10A as primary current
+7.5A foe secondary winding
+
+After simulations the result will be like this:
+The results for both flux distribution and inductance is nearer to my theoritical caluclations
+
+
