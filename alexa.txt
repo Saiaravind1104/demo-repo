@@ -1,0 +1,7 @@
+#speech recogination
+import speech_recognition as sn
+r= sn.Recognizer()
+with sn.Microphone() as source:
+    print("Say something!")
+    audio=r.listen(source)
+a=print(r.recognize_google(audio))
