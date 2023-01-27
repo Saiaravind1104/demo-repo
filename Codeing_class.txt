@@ -1,0 +1,54 @@
+            Methods
+            --------
+Method Syntax
+-------------
+
+AccessPecifier AccessModifier void methodName(){
+
+
+}
+
+AccesSpecifier:- public ,private
+
+AccessModifier:- static , non static
+
+
+
+Methods :- 1)static
+           2)Non static
+
+Static Method
+--------------
+
+accesSpecifier static void methodName(){
+
+}
+
+methodName();
+
+
+Non static Method
+--------------------
+
+syntax
+-------
+
+accesSpecifer void methodName(){
+
+}
+
+Object Syntax:-
+---------------
+
+ClassName objName=new ClassName();
+
+Combinations for methods
+------------------------
+
+1)static method         static method (direct)
+2)non static method     non static method (direct)
+3)non static method     static method(direct)
+4)static method         non static method(by object)
+
+
+
